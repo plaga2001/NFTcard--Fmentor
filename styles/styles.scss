@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+$font-general : 'Outfit', sans-serif;
+$font-color-general: #8BACD9;
+$font-color-white: #ffffff;
+$font-color-ether: #00FFF8;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // border: solid 1px red;
+}
+
+hr{
+    height: 0px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #0d192b;
+    font-family: $font-general;
+    color: $font-color-general;
+}
+
+.card{
+    background-color: #14253d;
+    max-width: 350px;
+    min-width: 330px;
+    padding: 25px;
+    border-radius: 15px;
+    &__imgbox > img{
+        border-radius: 10px;
+    }
+    &__title{
+        color: $font-color-white;
+        font-size: 11px;
+        padding: 20px 0;
+    }
+    &__paragraph{
+        font-size: 18px;
+        font-weight: 300;
+    }
+    &__details{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+        border-bottom: solid 1px #555555;
+        &__detail{
+            display: flex;
+            align-items: center;
+            & > img {
+                padding-right: 10px;
+            }
+            &__ether{
+                color: #00FFF8;
+                font-weight: 400;
+            }
+        }
+    }
+    &__creator{
+        padding-top: 15px;
+        display: flex;
+        align-items: center;
+        &__imgbox{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-width: 35px;
+            max-width: 35px;
+            & > img{
+                border-radius: 100%;
+                border: solid 2px white;
+            }
+        }
+        &__p{
+            padding-left: 15px;
+            &__name{
+                color: $font-color-white;
+            }
+        }
+    }
+}

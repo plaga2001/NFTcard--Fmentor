@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+hr {
+  height: 0px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0d192b;
+  font-family: "Outfit", sans-serif;
+  color: #8BACD9;
+}
+
+.card {
+  background-color: #14253d;
+  max-width: 350px;
+  min-width: 330px;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.card__imgbox > img {
+  border-radius: 10px;
+}
+
+.card__title {
+  color: #ffffff;
+  font-size: 11px;
+  padding: 20px 0;
+}
+
+.card__paragraph {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.card__details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: solid 1px #555555;
+}
+
+.card__details__detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card__details__detail > img {
+  padding-right: 10px;
+}
+
+.card__details__detail__ether {
+  color: #00FFF8;
+  font-weight: 400;
+}
+
+.card__creator {
+  padding-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card__creator__imgbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 35px;
+  max-width: 35px;
+}
+
+.card__creator__imgbox > img {
+  border-radius: 100%;
+  border: solid 2px white;
+}
+
+.card__creator__p {
+  padding-left: 15px;
+}
+
+.card__creator__p__name {
+  color: #ffffff;
+}
+/*# sourceMappingURL=styles.css.map */
